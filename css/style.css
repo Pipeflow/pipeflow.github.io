@@ -149,6 +149,7 @@ nav.navbar .dropdown-menu {
 
 /* NAVBAR MEDIAQUERY */
 @media (max-width: 991.98px) {
+
   nav.navbar {
     background: #fff;
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
@@ -245,7 +246,7 @@ nav.navbar .dropdown-menu {
 }
 
 .hero-heading > img {
-  height: 350px;
+  height: 40vw;
 }
 
 
@@ -288,6 +289,7 @@ nav.navbar .dropdown-menu {
     padding: 5rem 0 7rem;
     padding-top: 8rem;
   }
+  
   .subscription-form .form-group {
     position: static;
   }
@@ -2242,6 +2244,10 @@ code {
 }
 
 @media (min-width: 576px) {
+  .hero-heading > img {
+    height: 30vw;
+  }
+
   .card-deck {
     margin-right: -15px;
     margin-left: -15px;
