@@ -231,13 +231,23 @@ nav.navbar .dropdown-menu {
 
 
 .hero-heading > span, .navbar-brand > span{
-  padding: 0.25em ;
+  bottom: 0;
+  padding: 0;
   padding-bottom: 0;
   margin-right: 5px;
   background: #1f1f1f;
   font-family: "siffon";
-  color: white;
+  color: #f2f2f2;
 }
+
+.navbar-brand > img{
+  height: 40px;
+}
+
+.hero-heading > img {
+  height: 350px;
+}
+
 
 .subscription-form .form-group {
   position: relative;
@@ -658,11 +668,6 @@ nav.navbar .dropdown-menu {
   }
 }
 
-.btn:focus, .btn.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.25);
-}
-
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
 }
@@ -701,11 +706,6 @@ nav.navbar .dropdown-menu {
   border-color: rgb(33, 128, 143) !important;
 }
 
-.btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-}
-
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
   background-color: #69AFBA;
@@ -719,11 +719,6 @@ nav.navbar .dropdown-menu {
   border-color: #d31b36;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-}
 
 .btn-secondary {
   color: #fff;
@@ -990,11 +985,6 @@ nav.navbar .dropdown-menu {
   border-color: #69AFBA;
 }
 
-.btn-outline-primary:focus, .btn-outline-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-}
-
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
   color: #69AFBA;
   background-color: transparent;
@@ -1005,12 +995,6 @@ nav.navbar .dropdown-menu {
   color: #fff;
   background-color: #69AFBA;
   border-color: #69AFBA;
-}
-
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.5);
 }
 
 .btn-outline-secondary {
@@ -1418,10 +1402,6 @@ mark,
   color: #69AFBA !important;
 }
 
-a.text-primary:hover, a.text-primary:focus {
-  color: #de1d39 !important;
-}
-
 /*
  * 4. PAGINATION
  */
@@ -1501,11 +1481,6 @@ a.text-primary:hover, a.text-primary:focus {
   background: linear-gradient(90deg,#69AFBA, #9d5798) !important;
 }
 
-a.bg-primary:hover, a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus {
-  background-color: #de1d39 !important;
-}
 
 .bg-secondary {
   background-color: #6c757d !important;
@@ -1611,10 +1586,6 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #69AFBA !important;
-}
-
-a.text-primary:hover, a.text-primary:focus {
-  color: #de1d39 !important;
 }
 
 .text-secondary {
@@ -1788,15 +1759,6 @@ a.text-dark:hover, a.text-dark:focus {
 .form-control::-ms-expand {
   background-color: transparent;
   border: 0;
-}
-
-.form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  border-color: #f6b8c1;
-  outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(231, 71, 94, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
